@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, please cite the software and any associated article, if applicable."
+type: software
+title: "NSST-TransFusion-TV: Deterministic Cross-Modal Medical Image Fusion in MATLAB"
+authors:
+  - family-names: Singh
+    given-names: Prabhishek
+keywords:
+  - medical image fusion
+  - NSST
+  - cross-modal attention
+  - total variation
+  - MATLAB

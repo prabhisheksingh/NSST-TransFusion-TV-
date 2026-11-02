@@ -1,0 +1,29 @@
+# MATLAB autosave / editor
+*.asv
+*.m~
+*.autosave
+*.mlappinstall
+*.slprj/
+*.mex*
+
+# Generated runs (the script writes this folder in MATLAB's current pwd)
+NSST_TransFusion_TV_Output/
+**/NSST_TransFusion_TV_Output/
+
+# MATLAB workspace / potentially huge or sensitive artifacts
+*.mat
+*.fig
+*.h5
+*.hdf5
+*.dcm
+
+# Generated synthetic demonstration images
+examples/demo_inputs/
+
+# User data / medical images: add only appropriately licensed, de-identified data
+private_data/
+patient_data/
+results/
+outputs/
+.DS_Store
+Thumbs.db
